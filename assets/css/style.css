@@ -2422,6 +2422,7 @@ header.header.is-sticky .header-top {
 }
 .project .content .title {
   color: #ffffff;
+  display: none;
   font-weight: 600;
   margin-bottom: 45px;
   -webkit-transition: all 0.3s ease 0s;
@@ -2433,6 +2434,7 @@ header.header.is-sticky .header-top {
 }
 .project .content .category a {
   color: #ffffff;
+  display: none;
   margin-right: 5px;
   font-size: 13px;
 }
@@ -2448,13 +2450,7 @@ header.header.is-sticky .header-top {
 .project .content .category a:hover {
   color: #fab702;
 }
-.project:hover .image::before {
-  left: 10px;
-  top: 10px;
-  right: 10px;
-  bottom: 10px;
-  opacity: 0.75;
-}
+
 .project:hover .content {
   opacity: 1;
 }
